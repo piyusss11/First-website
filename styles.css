@@ -1,0 +1,99 @@
+/* CSS RESET */
+body{
+    font-family:'Playfair Display';
+    color: white;
+    margin: 0px;
+    padding: 0px;
+    background: url('images/pexels-pikx-by-panther-2092479.jpg');
+    background-position: 0px 0px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    
+   
+}
+.left{
+    position: absolute;
+    left: 54px;
+    top: 20px;
+    
+    display: inline-block;
+}
+.left img{
+    width: 70px;
+    filter: invert(100%);
+    
+}
+.left div{
+    text-align: center;
+    line-height: 19px;
+    font-size: 20px;
+}
+.mid{
+    
+    display:block;
+    width: 35%;
+    margin: 20px auto;
+
+}
+.right{
+    position: absolute;
+    right: 40px;
+    top: 20px;
+    
+    display: inline-block;
+}
+.right input{
+    margin-top: 11px;
+    color: white;
+    background-color: #5d5e60;
+    padding: 8px;
+    font-size: 15px;
+    width: 200px;
+    border-radius: 24px;
+    border: 1px solid white;
+    font-family: 'Playfair Display';
+}
+.navbar{
+    display: inline-block;
+}
+.navbar li{
+    display: inline-block;
+
+}
+.navbar li a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    padding: 30px;
+}
+.navbar li a:hover, .navbar li a.active{
+    color: black;
+    text-decoration: underline;
+
+}
+.container{
+    font-size: 50px;
+    text-align: center;
+    border: 2px solid white;
+    margin: 389px 470px;
+    padding: 41px 29px;
+    width: 33%;
+    border-radius: 16px;
+}
+.bottom-mid{
+    text-align: center;
+    
+    font-size: 20px;
+    color: black;
+    margin: auto;
+    width: 33%;
+    display: block;
+}
+.bottom-right{
+    text-align: center;
+    font-size: 20px;
+    color: black;
+    margin: auto;
+    width: 33%;
+    display: block;
+}
